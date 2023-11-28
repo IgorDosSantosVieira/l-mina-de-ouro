@@ -1,0 +1,104 @@
+body {
+    font-family: 'Bree Serif', serif;
+    font-size: 16px; /* Tamanho da fonte, ajuste conforme necessário */
+    padding-top: 56px;
+  }
+  .navbar-brand{
+    margin-right: 20px; /* Ajuste conforme necessário */
+    margin-left: 20px;
+  }
+  
+  .nav-link{
+    margin-right: 20px; /* Ajuste conforme necessário */
+    margin-left: 20px;
+  }
+
+
+  #carouselExample {
+    max-width: 990px; /* Ajuste a largura máxima conforme necessário */
+    margin: auto; /* Centralize o carrossel na tela */
+    margin-top: 70px; /* Ajuste a margem superior conforme necessário para separar do navbar */
+  }
+
+  #carouselExample img {
+    max-width: 100%; /* Largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  #content {
+    flex: 1; /* Para ocupar todo o espaço restante e empurrar o rodapé para baixo */
+  }
+
+  section#contatos {
+    background-color: #1E1E1E;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px; /* Ajuste conforme necessário para afastar o rodapé da seção de contatos */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  footer h6, footer p {
+    margin: 0;
+  }
+
+  table {
+    border: #1E1E1E;
+    width: 78%; /* Defina a largura desejada para a tabela */
+    margin: 0 auto; /* Centraliza a tabela na página */
+  }
+
+  table img {
+    max-width: 100%; /* Faz com que as imagens dentro da tabela se ajustem ao contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
+  table td {
+    padding: 10px; /* Adiciona espaçamento entre as células */
+  }
+
+
+h6{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+table{
+    background-color: #1e1e1e;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+}

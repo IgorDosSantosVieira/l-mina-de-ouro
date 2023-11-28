@@ -1,0 +1,60 @@
+
+body {
+  font-family: 'Bree Serif', serif;
+  font-size: 16px; /* Tamanho da fonte, ajuste conforme necessário */
+  padding-top: 56px;
+}
+
+body {
+  padding-top: 56px; /* Altura da barra de navegação fixa */
+  background-color: #000; /* Cor de fundo preta para o corpo da página */
+  color: #fff; /* Cor do texto branco para melhor legibilidade no fundo preto */
+}
+
+.content {
+  padding: 20px; /* Adiciona espaço interno ao conteúdo para melhorar a legibilidade */
+}
+
+body {
+  min-height: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1e1e; /* Cor de fundo cinza claro */
+  color: #212529; /* Cor do texto padrão */
+}
+
+.accordion-container {
+  width: 80%; /* Ajuste conforme necessário */
+}
+
+.accordion-item {
+  margin-bottom: 20px /* Espaçamento entre os itens do acordeão */
+}
+
+.accordion-price {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.accordion-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000; /* Cor escura, ajuste conforme necessário */
+  position: absolute;
+  right: 50px; /* Ajuste conforme necessário para posicionar à direita */
+  top: 30%; /* Centraliza verticalmente */
+  transform: translateY(-50%);
+}
+
+.custom-gray-text {
+  color: #808080; /* ou qualquer outra cor de cinza desejada */
+}
+
+.navbar-brand{
+  margin-right: 20px; /* Ajuste conforme necessário */
+  margin-left: 20px;
+}
+
+.nav-link{
+  margin-right: 20px; /* Ajuste conforme necessário */
+  margin-left: 20px;
+}
